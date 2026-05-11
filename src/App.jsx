@@ -959,8 +959,7 @@ export default function MahashivEnterprisesLandingPage() {
               </div>
             </div>
             <p className="mt-5 max-w-xl text-sm leading-6 text-slate-400">
-              Professional business assistance website template. Replace placeholder phone, address, company logos, and connect forms with your backend before final launch.
-            </p>
+              Mahashiv Enterprises is a proud part of the Mahashiv Business Group, focused on providing trusted assistance in Insurance, Loans, and RTO-related services with transparency, reliability, and customer-first support.</p>
           </div>
           <div>
             <p className="text-sm font-black uppercase tracking-[0.2em] text-slate-400">Services</p>
