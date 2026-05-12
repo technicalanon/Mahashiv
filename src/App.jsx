@@ -999,7 +999,7 @@ export default function MahashivEnterprisesLandingPage() {
           © {new Date().getFullYear()} Mahashiv Enterprises. All rights reserved.
         </div>
       </footer>
-      <a
+     <a
   href="https://wa.me/918982251114"
   target="_blank"
   rel="noopener noreferrer"
@@ -1008,6 +1008,7 @@ export default function MahashivEnterprisesLandingPage() {
   <span className="text-2xl">💬</span>
   <span className="text-sm font-bold">Chat on WhatsApp</span>
 </a>
+
     </main>
   );
 }
