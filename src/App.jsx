@@ -668,9 +668,18 @@ export default function MahashivEnterprisesLandingPage() {
             <a className="hover:text-slate-950" href="#why">Why Us</a>
             <a className="hover:text-slate-950" href="#contact">Contact</a>
           </div>
+          <a
+  href="https://wa.me/918982251114"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="rounded-full bg-green-500 px-5 py-3 text-sm font-black text-white transition hover:-translate-y-0.5 hover:bg-green-600 hover:shadow-lg"
+>
+  WhatsApp
+</a>
           <a href="#contact" className="rounded-full bg-slate-950 px-5 py-3 text-sm font-black text-white transition hover:-translate-y-0.5 hover:shadow-lg">
             Get Help
           </a>
+          
         </nav>
       </header>
 
@@ -999,15 +1008,6 @@ export default function MahashivEnterprisesLandingPage() {
           © {new Date().getFullYear()} Mahashiv Enterprises. All rights reserved.
         </div>
       </footer>
-     <a
-  href="https://wa.me/918982251114"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="fixed bottom-6 right-6 z-50 flex items-center gap-3 rounded-full bg-green-500 px-5 py-4 text-white shadow-2xl transition hover:scale-105 hover:bg-green-600"
->
-  <span className="text-2xl">💬</span>
-  <span className="text-sm font-bold">Chat on WhatsApp</span>
-</a>
 
     </main>
   );
