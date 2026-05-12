@@ -672,11 +672,11 @@ export default function MahashivEnterprisesLandingPage() {
   href="https://wa.me/918982251114"
   target="_blank"
   rel="noopener noreferrer"
-  className="rounded-full bg-green-500 px-5 py-3 text-sm font-black text-white transition hover:-translate-y-0.5 hover:bg-green-600 hover:shadow-lg"
+  className="rounded-full bg-green-500 px-4 py-2 text-sm font-black text-white transition hover:-translate-y-0.5 hover:bg-green-600 hover:shadow-lg"
 >
   WhatsApp
 </a>
-          <a href="#contact" className="rounded-full bg-slate-950 px-5 py-3 text-sm font-black text-white transition hover:-translate-y-0.5 hover:shadow-lg">
+        <a href="#contact" className="rounded-full bg-slate-950 px-5 py-3 text-sm font-black text-white transition hover:-translate-y-0.5 hover:shadow-lg">
             Get Help
           </a>
           
