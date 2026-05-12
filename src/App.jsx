@@ -557,36 +557,49 @@ export default function MahashivEnterprisesLandingPage() {
   }
 
   async function handleContactSubmit(e) {
-    e.preventDefault();
-    if (!contact.name.trim() || !contact.phone.trim()) return;
+  e.preventDefault();
 
-    try {
-      await fetch(
-  "https://script.google.com/macros/s/AKfycbxJlpQvQk5FldhL7Ul9cuEare_Puzw_yWf4mdevQ6G23r_XcmGcv5E_1kssB3exGnMdLQ/exec",
-  {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      name: form.name,
-      phone: form.mobile,
-      service: form.service,
-      budget: form.budget,
-      message: form.message,
-    }),
-  }
-);
-      });
+  if (!contact.name.trim() || !contact.phone.trim()) return;
 
-      setContactSuccess(true);
-      setStats((prev) => ({ ...prev, leads: prev.leads + 1 }));
-      setContact({ name: "", phone: "", service: "Insurance", budget: "", message: "" });
-      setTimeout(() => setContactSuccess(false), 3000);
-    } catch (error) {
-      alert("Something went wrong. Please try again.");
-    }
+  try {
+    await fetch(
+      "https://script.google.com/macros/s/AKfycbxJlpQvQk5FldhL7Ul9cuEare_Puzw_yWf4mdevQ6G23r_XcmGcv5E_1kssB3exGnMdLQ/exec",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name: contact.name,
+          phone: contact.phone,
+          service: contact.service,
+          budget: contact.budget,
+          message: contact.message,
+        }),
+      }
+    );
+
+    setContactSuccess(true);
+
+    setStats((prev) => ({
+      ...prev,
+      leads: prev.leads + 1,
+    }));
+
+    setContact({
+      name: "",
+      phone: "",
+      service: "Insurance",
+      budget: "",
+      message: "",
+    });
+
+    setTimeout(() => setContactSuccess(false), 3000);
+
+  } catch (error) {
+    alert("Something went wrong. Please try again.");
   }
+}
 
   function resetAnalytics() {
     setStats(defaultStats);
