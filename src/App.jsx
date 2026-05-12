@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 
-const brandLogo = "https://i.ibb.co/nNGGZ45t/Untitled-design-1.png";
+const brandLogo = "https://ibb.co/3xK8g0W";
 
 const statsKey = "mahashiv-enterprises-stats";
 
