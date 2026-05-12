@@ -561,19 +561,22 @@ export default function MahashivEnterprisesLandingPage() {
     if (!contact.name.trim() || !contact.phone.trim()) return;
 
     try {
-      await fetch("https://formsubmit.co/ajax/mahashiv.ent14@gmail.com", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json",
-        },
-        body: JSON.stringify({
-          name: contact.name,
-          phone: contact.phone,
-          service: contact.service,
-          budget: contact.budget,
-          message: contact.message,
-        }),
+      await fetch(
+  "https://script.google.com/macros/s/AKfycbxJlpQvQk5FldhL7Ul9cuEare_Puzw_yWf4mdevQ6G23r_XcmGcv5E_1kssB3exGnMdLQ/exec",
+  {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      name: form.name,
+      phone: form.mobile,
+      service: form.service,
+      budget: form.budget,
+      message: form.message,
+    }),
+  }
+);
       });
 
       setContactSuccess(true);
