@@ -563,21 +563,22 @@ export default function MahashivEnterprisesLandingPage() {
 
   try {
     await fetch(
-      "https://script.google.com/macros/s/AKfycbyuBdxZeBC1WCJ6lFkSw6soFuluh8uPHeoS6asSedkANVZ2q_3e6cGIm3PuA_Zn7yGikw/exec",
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          name: contact.name,
-          phone: contact.phone,
-          service: contact.service,
-          budget: contact.budget,
-          message: contact.message,
-        }),
-      }
-    );
+  "https://script.google.com/macros/s/AKfycbyuBdxZeBC1WCJ6lFkSw6soFuluh8uPHeoS6asSedkANVZ2q_3e6cGIm3PuA_Zn7yGikw/exec",
+  {
+    method: "POST",
+    mode: "no-cors",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      name: contact.name,
+      phone: contact.phone,
+      service: contact.service,
+      budget: contact.budget,
+      message: contact.message,
+    }),
+  }
+);
 
     setContactSuccess(true);
 
