@@ -1008,8 +1008,6 @@ export default function MahashivEnterprisesLandingPage() {
   <span className="text-2xl">💬</span>
   <span className="text-sm font-bold">Chat on WhatsApp</span>
 </a>
-
-</main>
     </main>
   );
 }
