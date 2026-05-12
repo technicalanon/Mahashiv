@@ -1,12 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 
-const brandLogo = <a href="https://ibb.co/3xK8g0W">
-  <img
-    src="https://i.ibb.co/g0YXkDw/Chat-GPT-Image-May-12-2026-02-06-22-PM-1.png"
-    alt="Chat-GPT-Image-May-12-2026-02-06-22-PM-1"
-    border={0}
-  />
-</a>
+const brandLogo = "i.ibb.co/nNGGZ45t/Untitled-design-1.png";
 
 const statsKey = "mahashiv-enterprises-stats";
 
