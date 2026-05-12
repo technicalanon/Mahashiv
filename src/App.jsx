@@ -563,7 +563,7 @@ export default function MahashivEnterprisesLandingPage() {
 
   try {
     await fetch(
-      "https://script.google.com/macros/s/AKfycbxJlpQvQk5FldhL7Ul9cuEare_Puzw_yWf4mdevQ6G23r_XcmGcv5E_1kssB3exGnMdLQ/exec",
+      "https://script.google.com/macros/s/AKfycbyuBdxZeBC1WCJ6lFkSw6soFuluh8uPHeoS6asSedkANVZ2q_3e6cGIm3PuA_Zn7yGikw/exec",
       {
         method: "POST",
         headers: {
