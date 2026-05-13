@@ -998,7 +998,7 @@ export default function MahashivEnterprisesLandingPage() {
           <div>
             <p className="text-sm font-black uppercase tracking-[0.2em] text-slate-400">Contact</p>
             <div className="mt-4 grid gap-3 text-sm text-slate-300">
-              <a className="hover:text-white" href="tel:+918982251114">+91 8982251114</a>
+              <a className="hover:text-white" href="tel:+918982251114">+91 8085564620, +91 8982251114</a>
               <a className="hover:text-white" href="mailto:mahashiv.ent14@gmail.com">mahashiv.ent14@gmail.com</a>
               <p>Madhya Pradesh, India</p>
             </div>
