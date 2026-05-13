@@ -875,7 +875,7 @@ export default function MahashivEnterprisesLandingPage() {
                 <BrandLogo className="h-24 w-full sm:w-64" compact />
                 <div>
                   <p className="text-xl font-black">Mahashiv Enterprises</p>
-                  <a className="text-sm text-slate-300 hover:text-white" href="tel:+918982251114">Call: +91 8982251114</a>
+                  <a className="text-sm text-slate-300 hover:text-white" href="tel:+918982251114">Call: +91 8085564620, +91 8982251114</a>
                 </div>
               </div>
               <p className="mt-5 text-sm leading-6 text-slate-300">Email: mahashiv.ent14@gmail.com</p>
